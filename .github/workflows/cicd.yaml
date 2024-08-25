@@ -59,7 +59,7 @@ jobs:
     - name: Login to DockerHub
       uses: docker/login-action@v3
       with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        username: ${{ secrets.DOCKERHUB_USERNAME }} # to be fetched from dockerhub and these secrets key and value can be entered in secutiy secret and policy option in github
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Build and Push action

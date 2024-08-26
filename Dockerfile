@@ -46,3 +46,4 @@ EXPOSE 8080
 CMD [ "./main" ]
 
 #Add the entrypoint main binary file and expose the port 8080
+#Test

@@ -19,6 +19,6 @@ spec:
       - name: my-dockerhub-secret
       containers:
       - name: go-web-app
-        image: namansharma8827/go-web-app:v1 # this image is created and built in minkube env in local using setting the env cmd-> eval $(minikube docker-env)
+        image: namansharma8827/go-web-app:v1 # this image is created and built in minikube env in local using setting the env cmd-> eval $(minikube docker-env)
         ports:
         - containerPort: 8080

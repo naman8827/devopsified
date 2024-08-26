@@ -16,7 +16,7 @@ spec:
         app: go-web-app
     spec:
       imagePullSecrets:
-      - name: my-dockerhub-secret
+      - name: dockerhub-secret
       containers:
       - name: go-web-app
         image: namansharma8827/go-web-app:{{ .Values.image.tag }}
